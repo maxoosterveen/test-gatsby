@@ -5,3 +5,7 @@ title: Third blog!
 template: blogTemplateTwo
 ---
 Test
+
+
+
+![image-alt-text](/static/assets/screenshot_1.png "image-title")
