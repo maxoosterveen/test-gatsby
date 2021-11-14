@@ -6,7 +6,6 @@ collections:
   - name: pages
     label: Page
     folder: 'content/pages'
-    slug: 'index'
     create: true
     fields:
       - { name: path, label: Path }
@@ -16,7 +15,7 @@ collections:
       - { label: "Template", name: "template", widget: "select", options: [{ label: "Content", value: "content" }, { label: "Contact", value: "contact" }]}
   - name: events
     label: Events
-    folder: events
+    folder: 'content/pages'
     create: true
     fields:
       - { name: path, label: Path }
