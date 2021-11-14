@@ -1,0 +1,24 @@
+backend:
+  name: test-repo
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: pages
+    label: Page
+    folder: pages
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+      - { label: "Template", name: "template", widget: "select", options: [{ label: "Content", value: "content" }, { label: "Contact", value: "contact" }]}
+  - name: events
+    label: Events
+    folder: events
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
