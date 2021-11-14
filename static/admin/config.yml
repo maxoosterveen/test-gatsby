@@ -1,11 +1,12 @@
 backend:
-  name: test-repo
+  name: git-gateway
 media_folder: static/assets
 public_folder: /assets
 collections:
   - name: pages
     label: Page
-    folder: pages
+    folder: 'content/pages'
+    slug: 'index'
     create: true
     fields:
       - { name: path, label: Path }
