@@ -20,6 +20,7 @@ exports.createPages = ({ actions, graphql }) => {
               date
               path
               title
+              template
             }
           }
         }
@@ -31,9 +32,11 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      const template = path.resolve(`src/templates/${node.frontmatter.template}.js`);
+
       createPage({
         path: node.frontmatter.path,
-        component: blogPostTemplate,
+        component: template,
         context: {},
       });
     });
