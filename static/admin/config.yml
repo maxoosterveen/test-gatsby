@@ -15,7 +15,7 @@ collections:
       - { label: "Template", name: "template", widget: "select", options: [{ label: "Content", value: "content" }, { label: "Contact", value: "contact" }]}
   - name: events
     label: Events
-    folder: 'content/pages'
+    folder: 'content/events'
     create: true
     fields:
       - { name: path, label: Path }
