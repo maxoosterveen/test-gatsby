@@ -6,8 +6,8 @@ const products = {
     format: 'json',
     fields: [
         {
-            name: 'path',
-            label: 'path',
+            name: 'id',
+            label: 'ID',
         }
     ],
 }
