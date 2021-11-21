@@ -16,13 +16,13 @@ module.exports = {
         auth: false,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/blog`,
-        name: 'markdown-pages',
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     path: `${__dirname}/blog`,
+    //     name: 'markdown-pages',
+    //   },
+    // },
     `gatsby-plugin-netlify`,
     `gatsby-transformer-remark`,
   ],
