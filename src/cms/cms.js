@@ -1,6 +1,6 @@
 import CMS from 'netlify-cms-app'
 import blog from './collections/blog';
-import products from './collections/products';
+import products from './collections/products'
 
 window.CMS_MANUAL_INIT = true
 
@@ -8,7 +8,7 @@ CMS.init({
   config: {
     load_config_file: false,
     backend: {
-      name: 'test-repo',
+      name: 'git-gateway',
     },
     media_folder: '/static/img',
     public_folder: '/img',
