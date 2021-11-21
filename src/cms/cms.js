@@ -8,7 +8,7 @@ CMS.init({
   config: {
     load_config_file: false,
     backend: {
-      name: 'test-repo',
+      name: 'git-gateway',
     },
     media_folder: '/static/img',
     public_folder: '/img',
