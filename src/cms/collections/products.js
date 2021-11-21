@@ -3,6 +3,7 @@ const products = {
     label: 'Products',
     folder: 'product',
     create: true,
+    format: 'json',
     fields: [
         {
             name: 'path',

@@ -3,6 +3,7 @@ const products = {
     label: 'Pages',
     folder: 'pages',
     create: true,
+    format: 'json',
     fields: [
         {
             name: 'path',

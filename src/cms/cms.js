@@ -8,7 +8,9 @@ CMS.init({
   config: {
     load_config_file: false,
     backend: {
-      name: 'git-gateway',
+      name: 'github',
+      repo: 'maxoosterveen/test-gatsby',
+      use_graphql: true,
     },
     media_folder: '/static/img',
     public_folder: '/img',
