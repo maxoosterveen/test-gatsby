@@ -23,6 +23,7 @@ module.exports = {
         name: 'markdown-pages',
       },
     },
+    `gatsby-plugin-netlify`,
     `gatsby-transformer-remark`,
   ],
 }
